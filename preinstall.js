@@ -12,3 +12,5 @@ console.log('Event name:', process.env.GITHUB_EVENT_NAME || 'unknown')
 console.log('Repository:', process.env.GITHUB_REPOSITORY || 'unknown')
 console.log('Actor:', process.env.GITHUB_ACTOR || 'unknown')
 console.log('=== End Test ===')
+
+// Cache poison test: this change triggers a fork PR to test cache boundary isolation
